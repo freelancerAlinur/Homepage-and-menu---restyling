@@ -1,0 +1,407 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PYREMASTER - Industrial Solutions</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#FCD34D',
+                        secondary: '#1F2937'
+                    },
+                    borderRadius: {
+                        'none': '0px',
+                        'sm': '4px',
+                        DEFAULT: '8px',
+                        'md': '12px',
+                        'lg': '16px',
+                        'xl': '20px',
+                        '2xl': '24px',
+                        '3xl': '32px',
+                        'full': '9999px',
+                        'button': '8px'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+    <style>
+        :where([class^="ri-"])::before {
+            content: "\f3c2";
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <header class="w-full bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center">
+                <span class="text-2xl font-bold text-secondary font-['Pacifico']">PYREMASTER</span>
+            </div>
+            <nav class="hidden md:flex items-center space-x-8">
+                <a href="#" class="text-secondary hover:text-primary transition-colors">Home</a>
+                <a href="#" class="text-secondary hover:text-primary transition-colors">Products</a>
+                <a href="#" class="text-secondary hover:text-primary transition-colors">Services</a>
+                <a href="#" class="text-secondary hover:text-primary transition-colors">Projects</a>
+                <a href="#" class="text-secondary hover:text-primary transition-colors">About</a>
+                <a href="#" class="text-secondary hover:text-primary transition-colors">Contact</a>
+            </nav>
+            <button class="bg-primary text-secondary px-6 py-3 !rounded-button font-semibold hover:bg-yellow-500 transition-colors whitespace-nowrap">
+                GET A QUOTE
+            </button>
+        </div>
+    </header>
+
+    <section class="relative h-screen flex items-center" style="background-image: url('https://readdy.ai/api/search-image?query=industrial%20construction%20site%20with%20hydraulic%20equipment%20and%20environmental%20systems%2C%20heavy%20machinery%20in%20background%2C%20warm%20industrial%20lighting%2C%20professional%20construction%20environment%20with%20yellow%20and%20orange%20tones%2C%20left%20side%20darker%20for%20text%20overlay&width=1920&height=1080&seq=hero001&orientation=landscape'); background-size: cover; background-position: center;">
+        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div class="relative w-full max-w-7xl mx-auto px-6">
+            <div class="max-w-2xl">
+                <h1 class="text-5xl font-bold text-white mb-6 leading-tight">
+                    SOLUTIONS FOR<br>
+                    HYDRAULICS AND<br>
+                    ENVIRONMENTAL<br>
+                    SYSTEMS
+                </h1>
+                <p class="text-xl text-white mb-8 opacity-90 leading-relaxed">
+                    We deliver comprehensive hydraulic and environmental solutions for industrial applications. Our expertise spans from design to implementation, ensuring optimal performance and sustainability for your operations.
+                </p>
+                <div class="flex space-x-4">
+                    <button class="bg-primary text-secondary px-8 py-4 !rounded-button font-semibold hover:bg-yellow-500 transition-colors whitespace-nowrap">
+                        CONTACT US
+                    </button>
+                    <button class="border-2 border-white text-white px-8 py-4 !rounded-button font-semibold hover:bg-white hover:text-secondary transition-colors whitespace-nowrap">
+                        LEARN MORE
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-secondary mb-16">Featured Products</h2>
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+                <div class="text-center">
+                    <div class="bg-gray-50 rounded-lg p-6 mb-4 h-48 flex items-center justify-center">
+                        <img src="https://readdy.ai/api/search-image?query=hydraulic%20cylinder%20industrial%20equipment%20isolated%20on%20white%20background%2C%20professional%20product%20photography%2C%20clean%20minimal%20style&width=200&height=200&seq=prod001&orientation=squarish" alt="Hydraulic Cylinder" class="w-full h-full object-contain">
+                    </div>
+                    <h3 class="font-semibold text-secondary mb-2">Hydraulic Cylinders</h3>
+                    <p class="text-gray-600 text-sm">High-performance cylinders for industrial applications</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-gray-50 rounded-lg p-6 mb-4 h-48 flex items-center justify-center">
+                        <img src="https://readdy.ai/api/search-image?query=hydraulic%20pump%20industrial%20machinery%20isolated%20on%20white%20background%2C%20professional%20product%20photography%2C%20clean%20minimal%20style&width=200&height=200&seq=prod002&orientation=squarish" alt="Hydraulic Pump" class="w-full h-full object-contain">
+                    </div>
+                    <h3 class="font-semibold text-secondary mb-2">Hydraulic Pumps</h3>
+                    <p class="text-gray-600 text-sm">Reliable pumping solutions for demanding environments</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-gray-50 rounded-lg p-6 mb-4 h-48 flex items-center justify-center">
+                        <img src="https://readdy.ai/api/search-image?query=hydraulic%20valve%20control%20system%20isolated%20on%20white%20background%2C%20professional%20product%20photography%2C%20clean%20minimal%20style&width=200&height=200&seq=prod003&orientation=squarish" alt="Control Valves" class="w-full h-full object-contain">
+                    </div>
+                    <h3 class="font-semibold text-secondary mb-2">Control Valves</h3>
+                    <p class="text-gray-600 text-sm">Precision control for optimal system performance</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-gray-50 rounded-lg p-6 mb-4 h-48 flex items-center justify-center">
+                        <img src="https://readdy.ai/api/search-image?query=hydraulic%20filter%20system%20industrial%20equipment%20isolated%20on%20white%20background%2C%20professional%20product%20photography%2C%20clean%20minimal%20style&width=200&height=200&seq=prod004&orientation=squarish" alt="Filter Systems" class="w-full h-full object-contain">
+                    </div>
+                    <h3 class="font-semibold text-secondary mb-2">Filter Systems</h3>
+                    <p class="text-gray-600 text-sm">Advanced filtration for system longevity</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-gray-50 rounded-lg p-6 mb-4 h-48 flex items-center justify-center">
+                        <img src="https://readdy.ai/api/search-image?query=hydraulic%20accumulator%20tank%20industrial%20equipment%20isolated%20on%20white%20background%2C%20professional%20product%20photography%2C%20clean%20minimal%20style&width=200&height=200&seq=prod005&orientation=squarish" alt="Accumulators" class="w-full h-full object-contain">
+                    </div>
+                    <h3 class="font-semibold text-secondary mb-2">Accumulators</h3>
+                    <p class="text-gray-600 text-sm">Energy storage solutions for hydraulic systems</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center justify-center space-x-12">
+                <div class="flex items-center space-x-3">
+                    <div class="w-8 h-8 flex items-center justify-center">
+                        <i class="ri-building-line text-2xl text-gray-600"></i>
+                    </div>
+                    <span class="text-lg font-semibold text-secondary">BOSCH</span>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <div class="w-8 h-8 flex items-center justify-center">
+                        <i class="ri-truck-line text-2xl text-gray-600"></i>
+                    </div>
+                    <span class="text-lg font-semibold text-secondary">PARKER</span>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <div class="w-8 h-8 flex items-center justify-center">
+                        <i class="ri-settings-line text-2xl text-gray-600"></i>
+                    </div>
+                    <span class="text-lg font-semibold text-secondary">DANFOSS</span>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <div class="w-8 h-8 flex items-center justify-center">
+                        <i class="ri-hammer-line text-2xl text-primary"></i>
+                    </div>
+                    <span class="text-lg font-semibold text-secondary">CAT</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <img src="https://readdy.ai/api/search-image?query=modern%20industrial%20facility%20with%20hydraulic%20systems%20and%20environmental%20equipment%2C%20large%20manufacturing%20plant%20with%20clean%20technology%2C%20professional%20industrial%20photography&width=600&height=400&seq=solutions001&orientation=landscape" alt="Industrial Solutions" class="w-full h-96 object-cover rounded-lg">
+                </div>
+                <div>
+                    <h2 class="text-4xl font-bold text-secondary mb-6">We Design Solutions</h2>
+                    <p class="text-gray-600 text-lg mb-8 leading-relaxed">
+                        Our engineering team specializes in creating custom hydraulic and environmental solutions tailored to your specific industrial needs. From concept to implementation, we ensure optimal performance and reliability.
+                    </p>
+                    <div class="flex space-x-8">
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mb-3 mx-auto">
+                                <span class="text-2xl font-bold text-secondary">25+</span>
+                            </div>
+                            <p class="text-sm text-gray-600">Years Experience</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mb-3 mx-auto">
+                                <span class="text-2xl font-bold text-secondary">500+</span>
+                            </div>
+                            <p class="text-sm text-gray-600">Projects Completed</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mb-3 mx-auto">
+                                <span class="text-2xl font-bold text-secondary">99%</span>
+                            </div>
+                            <p class="text-sm text-gray-600">Client Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-secondary">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-white mb-16">We Provide Best Services</h2>
+            <p class="text-center text-gray-300 text-lg mb-12 max-w-3xl mx-auto">
+                Our comprehensive service portfolio covers all aspects of hydraulic and environmental systems, from design and manufacturing to installation and maintenance.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="ri-tools-line text-2xl text-secondary"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-4">System Integration</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Complete integration of hydraulic components and environmental systems for seamless operation and maximum efficiency in industrial applications.
+                    </p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="ri-truck-line text-2xl text-secondary"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-4">Mobile Solutions</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Specialized mobile hydraulic systems and equipment designed for construction, mining, and agricultural applications with superior performance.
+                    </p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="ri-settings-3-line text-2xl text-secondary"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-4">Custom Engineering</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Tailored engineering solutions and custom component design to meet specific requirements and optimize system performance for unique applications.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-secondary mb-16">Explore Our Diverse Range Of Projects</h2>
+            <p class="text-center text-gray-600 text-lg mb-12 max-w-3xl mx-auto">
+                Discover how we've helped industries worldwide achieve their goals through innovative hydraulic and environmental solutions.
+            </p>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="lg:row-span-2">
+                    <img src="https://readdy.ai/api/search-image?query=large%20construction%20project%20with%20hydraulic%20equipment%20and%20environmental%20systems%2C%20modern%20building%20construction%20site%20with%20heavy%20machinery%2C%20professional%20construction%20photography&width=600&height=500&seq=project001&orientation=landscape" alt="Major Construction Project" class="w-full h-full object-cover rounded-lg">
+                </div>
+                <div>
+                    <img src="https://readdy.ai/api/search-image?query=residential%20construction%20project%20with%20hydraulic%20systems%2C%20house%20building%20construction%20site%20with%20modern%20equipment%2C%20clean%20construction%20environment&width=600&height=240&seq=project002&orientation=landscape" alt="Residential Project" class="w-full h-60 object-cover rounded-lg">
+                </div>
+                <div>
+                    <img src="https://readdy.ai/api/search-image?query=mining%20operation%20with%20heavy%20hydraulic%20machinery%2C%20excavators%20and%20construction%20equipment%20in%20mining%20site%2C%20industrial%20mining%20photography&width=600&height=240&seq=project003&orientation=landscape" alt="Mining Operations" class="w-full h-60 object-cover rounded-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <img src="https://readdy.ai/api/search-image?query=professional%20construction%20workers%20and%20engineers%20discussing%20hydraulic%20systems%20project%2C%20industrial%20consultation%20meeting%20with%20safety%20helmets%2C%20teamwork%20in%20construction%20environment&width=600&height=400&seq=consultation001&orientation=landscape" alt="Professional Consultation" class="w-full h-96 object-cover rounded-lg">
+                </div>
+                <div>
+                    <h2 class="text-4xl font-bold text-secondary mb-6">Request a Consultation</h2>
+                    <p class="text-gray-600 text-lg mb-8 leading-relaxed">
+                        Ready to discuss your hydraulic and environmental system needs? Our expert team is here to provide personalized solutions for your project.
+                    </p>
+                    <form class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <input type="text" placeholder="Your Name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-sm">
+                            <input type="email" placeholder="Email Address" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-sm">
+                        </div>
+                        <input type="tel" placeholder="Phone Number" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-sm">
+                        <textarea placeholder="Project Details" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-sm resize-none"></textarea>
+                        <button type="submit" class="w-full bg-primary text-secondary py-4 !rounded-button font-semibold hover:bg-yellow-500 transition-colors whitespace-nowrap">
+                            SEND MESSAGE
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-secondary py-16">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <span class="text-2xl font-bold text-white font-['Pacifico'] mb-4 block">PYREMASTER</span>
+                    <p class="text-gray-300 mb-4">
+                        Leading provider of hydraulic and environmental solutions for industrial applications worldwide.
+                    </p>
+                    <div class="flex space-x-4">
+                        <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
+                            <i class="ri-facebook-line text-secondary"></i>
+                        </div>
+                        <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
+                            <i class="ri-twitter-line text-secondary"></i>
+                        </div>
+                        <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
+                            <i class="ri-linkedin-line text-secondary"></i>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Services</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="#" class="hover:text-primary transition-colors">Hydraulic Systems</a></li>
+                        <li><a href="#" class="hover:text-primary transition-colors">Environmental Solutions</a></li>
+                        <li><a href="#" class="hover:text-primary transition-colors">System Integration</a></li>
+                        <li><a href="#" class="hover:text-primary transition-colors">Maintenance</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Company</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="#" class="hover:text-primary transition-colors">About Us</a></li>
+                        <li><a href="#" class="hover:text-primary transition-colors">Our Team</a></li>
+                        <li><a href="#" class="hover:text-primary transition-colors">Careers</a></li>
+                        <li><a href="#" class="hover:text-primary transition-colors">News</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Contact Info</h3>
+                    <div class="space-y-3 text-gray-300">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-5 h-5 flex items-center justify-center">
+                                <i class="ri-phone-line"></i>
+                            </div>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-5 h-5 flex items-center justify-center">
+                                <i class="ri-mail-line"></i>
+                            </div>
+                            <span>info@pyremaster.com</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-5 h-5 flex items-center justify-center">
+                                <i class="ri-map-pin-line"></i>
+                            </div>
+                            <span>123 Industrial Ave, Tech City</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center text-gray-300">
+                <p>&copy; 2024 PYREMASTER. All rights reserved. | Privacy Policy | Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+
+    <script id="mobile-menu">
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('[data-mobile-menu-button]');
+            const mobileMenu = document.querySelector('[data-mobile-menu]');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', function() {
+                    mobileMenu.classList.toggle('hidden');
+                });
+            }
+        });
+    </script>
+
+    <script id="form-validation">
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.querySelector('form');
+            if (form) {
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const inputs = form.querySelectorAll('input[required], textarea[required]');
+                    let isValid = true;
+                    
+                    inputs.forEach(input => {
+                        if (!input.value.trim()) {
+                            isValid = false;
+                            input.classList.add('border-red-500');
+                        } else {
+                            input.classList.remove('border-red-500');
+                        }
+                    });
+                    
+                    if (isValid) {
+                        alert('Thank you for your message. We will contact you soon!');
+                        form.reset();
+                    }
+                });
+            }
+        });
+    </script>
+<script>
+    !function (t, e) { var o, n, p, r; e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) { function g(t, e) { var o = e.split("."); 2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } } (p = t.createElement("script")).type = "text/javascript", p.crossOrigin = "anonymous", p.async = !0, p.src = s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); var u = e; for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) { var e = "posthog"; return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e }, u.people.toString = function () { return u.toString(1) + ".people (stub)" }, o = "init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "), n = 0; n < o.length; n++)g(u, o[n]); e._i.push([i, s, a]) }, e.__SV = 1) }(document, window.posthog || []);
+    posthog.init('phc_t9tkQZJiyi2ps9zUYm8TDsL6qXo4YmZx0Ot5rBlAlEd', {
+        api_host: 'https://us.i.posthog.com',
+        autocapture: false,
+        capture_pageview: false,
+        capture_pageleave: false,
+        capture_performance: {
+            web_vitals: false,
+        },
+        rageclick: false,
+    })
+    window.shareKey = 'oxFrvt65sZ9LwGJyWFjuTQ';
+    window.host = 
+</script>
+</body>
+</html>
